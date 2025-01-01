@@ -1,7 +1,8 @@
 import "./App.css";
+import { TodoContainer } from "./components/TodoContainer";
 
 function App() {
-  return 1;
+  return <TodoContainer>{1}</TodoContainer>;
 }
 
 export default App;
