@@ -1,5 +1,6 @@
 .container{
     display:flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     height:100vh;
@@ -8,9 +9,5 @@
     color:#1F0812;
 }
 
-.todo-container{
-    width:400px;
-    padding:20px;
-    border-radius:15px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1)
-}
+
+
